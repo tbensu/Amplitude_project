@@ -1,3 +1,2 @@
-# Amplitude_project
-
-THis is an implementation project for amplitude
+# Weather-App
+A weather App created during SoyHenry Full Stack Development Bootcamp
