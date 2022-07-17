@@ -13,7 +13,7 @@ export default function SearchBar({onSearch}) {
 }
 
   return <div className={a.barraBusqueda}>
-    <button className={a.botonBusqueda} onClick={handleOnSearch; Amplitude.getInstance().logEvent('BUTTON_CLICKED')}> + </button>
+    <button className={a.botonBusqueda} onClick={handleOnSearch}> + </button>
     <input 
     className={a.inputBusqueda} 
     id='searchInput' 
