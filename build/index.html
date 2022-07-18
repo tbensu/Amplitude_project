@@ -1,15 +1,5 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.png"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created by Yooololo"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/><title>Yooololo's Weather App</title><script type="text/javascript">function display_c(){mytime=setTimeout("display_ct()",1e3)}function display_ct(){let t=new Date,e=t.getHours()>=12?" PM":" AM";hours=t.getHours()%12,hours=hours||12,hours=1==hours.toString().length?0+hours.toString():hours;let n=t.getMinutes().toString();n=1==n.length?0+n:n;let o=t.getSeconds().toString();o=1==o.length?0+o:o;let g=(t.getMonth()+1).toString();g=1==g.length?0+g:g;let l=t.getDate().toString();l=1==l.length?0+l:l;let r=g+"/"+l+"/"+t.getFullYear();r=r+" - "+hours+":"+n+" "+e,document.getElementById("ct").innerHTML=r,display_c()}</script><link href="/static/css/main.df7bcd3e.chunk.css" rel="stylesheet">
-    <script>   
-    //log an amplitude event
-    
-    function logEvent(ampEventName , ampEvenProp){
-        amplitude.getInstance().logEvent(ampEventName , ampEventProp);
-    }
-    // Log a user property
-    function setUserProp(identifyObj){
-        amplitude.getInstance().identify(identifyObj);
-    }
-    </script>
+ 
     
 
 <script type="text/javascript">
@@ -38,6 +28,18 @@
     }return r._iq[e]};e.amplitude=r})(window,document);
     
     amplitude.getInstance().init("bb5946fe688afff4ab8ec2fc0c44dea6");
+    </script>
+    
+       <script>   
+    //log an amplitude event
+    
+    function logEvent(ampEventName , ampEvenProp){
+        amplitude.getInstance().logEvent(ampEventName , ampEventProp);
+    }
+    // Log a user property
+    function setUserProp(identifyObj){
+        amplitude.getInstance().identify(identifyObj);
+    }
     </script>
     </head><body onload="display_ct()"><div id="root"></div>
 
